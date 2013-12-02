@@ -1,5 +1,5 @@
 module ActsAsMarkup
-  class Railtie < Rails::Railtie
+  class Engine < Rails::Engine
     config.acts_as_markup = ActiveSupport::OrderedOptions.new
     
     initializer 'acts_as_markup.set_config', :after => 'active_record.initialize_database' do |app|

@@ -18,6 +18,6 @@ group :development do
   gem 'rdoc'
   gem 'bluecloth'
   gem 'maruku'
-  gem 'wikitext'
+  #gem 'wikitext'
   gem 'redcarpet'
 end
