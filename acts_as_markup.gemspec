@@ -122,7 +122,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rdoc>, [">= 0"])
     s.add_dependency(%q<bluecloth>, [">= 0"])
     s.add_dependency(%q<maruku>, [">= 0"])
-    s.add_dependency(%q<wikitext>, [">= 0"])
+    #s.add_dependency(%q<wikitext>, [">= 0"])
     s.add_dependency(%q<redcarpet>, [">= 0"])
     s.add_dependency(%q<activesupport>, [">= 2.3.2"])
     s.add_dependency(%q<activerecord>, [">= 2.3.2"])
